@@ -1,0 +1,12 @@
+PyQt5
+pymongo
+numpy
+nltk
+sklearn
+lxml
+requests
+bs4
+cssselect
+mplcursors
+seaborn
+wordcloud
