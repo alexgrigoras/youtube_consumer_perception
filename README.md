@@ -7,28 +7,27 @@ It can determine the impact of user comments on videos. It is helpful for conten
 <img src="./docs/images/users_perception.png" alt="Consumer perception image" width="500">
 
 ## Components
-The main components of the application are
-
-1. Web Crawler Module Extractor
-    - searches youtube for videos based on a keyphrase
+The main components of the application are:
+1. Web Crawler
+	- search videos on youtube based on a keyphrase
 1. Data Storage
 	- store data to mongoDB
 1. Data Processing
 	- preprocess data to remove noise
 1. Data Analysis
-    - analyses extracted data
-    - machine learning classifiers:
-        * Multinomial Naive Bayes
-        * Logistic Regression
-        * Support Vector Machines
-    - lexicon based dictionaries:
-        * VADER
-        * ANEW
-    - voting system (using all classifiers)
+	- analyse extracted data
+	- machine learning classifiers:
+		* Multinomial Naive Bayes
+		* Logistic Regression
+		* Support Vector Machines
+	- lexicon based dictionaries:
+		* VADER
+		* ANEW
+	- voting system (using all classifiers)
 1. User interface
-    - interface for user to search and view data
+	- interface for user to search and view data
 1. Data display
-    - create the graphs for displaying data
+	- create the graphs for displaying data
 
 ## Structure
 ```
@@ -40,9 +39,9 @@ youtube_sentiment_analysis
 ├── youtube_sentiment_analysis
 |   ├── data
 |   |   └── classifiers
-|	|   |   ├── logistic_regression.pickle
-|	|   |   ├── multinomial_naive_bayes.pickle
-|	|   |   └── nu_svc.pickle
+|   |   |   ├── logistic_regression.pickle
+|   |   |   ├── multinomial_naive_bayes.pickle
+|   |   |   └── nu_svc.pickle
 |   ├── modules
 |   |   ├── __init__.py
 |   |   ├── accuracy.py
@@ -67,12 +66,12 @@ youtube_sentiment_analysis
 ### Dataset with 10,000 files from IMDB
 | Classifier                | Accuracy (%)  | Standard deviation |
 | ------------------------- | ------------- | ------------------ |
-| Multinomial NB            | 85.66         | 0.0065			 |
+| Multinomial NB            | 85.66         | 0.0065		 |
 | Logistic Regression       | 87.30         | 0.0107             |
 | Nu SVC                    | 88.23         | 0.0078             |
-| VADER						| 69.36			| 0.1638			 |
-| ANEW						| 67.54			| 0.1313			 |
-| VOTING					| 88.88			| 0.0977			 |
+| VADER			    | 69.36	    | 0.1638		 |
+| ANEW			    | 67.54	    | 0.1313		 |
+| VOTING		    | 88.88	    | 0.0977		 |
 
 *Training time was obtained on a virtual machine with Debian 9.6 OS, with the specifications: 
 (CPU Intel Core i7-2600 (4 cores), RAM 8GB DDR3, GPU AMD Radeon RX580)
