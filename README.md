@@ -160,8 +160,4 @@ youtube_sentiment_analysis
  - [Microsoft - Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview) 
 
 ## License
-The MIT License.
-
-Application made for academical use and is the subject of a bachelor's degree diploma.
- 
-
+The application is licensed under MIT License. It is made for academic use and is the subject of a bachelor's degree.
