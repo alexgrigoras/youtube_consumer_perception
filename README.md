@@ -1,8 +1,8 @@
 # Consumer perception of online multimedia
 
 ## Description
-This is a bachelor's degree application. It was created to analyse Youtube videos metadata to create statistics about a specific keyphrase search.
-It can determine the impact of user comments on videos. It is helpful for content creators of the Youtube platform. 
+This is a bachelor's degree application. It was created to analyze Youtube videos' metadata to create statistics about a specific key phrase search.
+It can determine the impact of user comments on videos. It is helpful for the content creators of the Youtube platform. 
 
 <img src="./docs/images/users_perception.png" alt="Consumer perception image" width="500">
 
@@ -82,11 +82,11 @@ youtube_sentiment_analysis
  - Colour       	-> the confidence of classifiers
  - Size         	-> the number of likes
 
-## New fetures to implement
- - higher dataset (more than 50000 files containing comments)
- - scatter point with details on hover
- - on y axis will be added activity of the user that write the comment
- - points size will be based on their likes
+## New features to implement
+ - bigger dataset (more than 50000 files containing comments);
+ - scatter point with details on hover;
+ - on y-axis will be added activity of the user that write the comment;
+ - points size will be based on their likes.
  
 ## Resources
 ### 1. Academic papers
